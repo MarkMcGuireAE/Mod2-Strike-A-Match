@@ -1,7 +1,7 @@
 import { Route,  Routes } from "react-router-dom"
 import Homepage from "./pages/Homepage"
 import GamePage1 from "./pages/GamePage1"
-import GameBoard from "./pages/Gameboard"
+import GameBoard from "./pages/GameBoard"
 import GameBoard2 from "./pages/GameBoard2"
 import GameBoard3 from "./pages/GameBoard3"
 

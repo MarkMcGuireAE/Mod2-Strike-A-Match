@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 
-const Gameboard = () => {
+const GameBoard = () => {
 
     // const [word, setWord] = useState(null)
     const [data, setData] = useState(null)
@@ -212,4 +212,4 @@ const shuffle = (array) => {
   )
 }
 
-export default Gameboard
+export default GameBoard
