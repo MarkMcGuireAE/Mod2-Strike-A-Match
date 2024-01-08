@@ -86,10 +86,10 @@ const GameBoard2 = () => {
   return (
     <div>
     {data && 
-    <div className='container'>
+    <div className='max-w-screen-2xl mx-auto'>
       
 
-    <h1>Strike-A-Match: Round 2</h1>
+    <h1 class="font-bungee text-8xl mx-auto text-center">Strike-A-Match: Round 2</h1>
     <div>
         <h3> In round 2, players are given 9 words, 6 are random, and the other 3 share a commonality. 
             In round 2, the word these other's share in common is given to you! Each matching word set is worth 500 points! If you guess incorrectly, you lose 500 points. 
