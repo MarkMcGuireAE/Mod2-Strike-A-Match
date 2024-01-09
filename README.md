@@ -8,10 +8,11 @@ This game was developed as my second major coding project during week 11 of the 
 ### Screenshots
 
 Start of the game and basic setup:
-![alt text](/src/imgages/Strike 1.png)
+![alt text](src/images/Strike%201.png)
 
 During a Round of Play:
-![alt text](/src/imgages/strike 2.png)
+![alt text](src/images/strike%202.png)
+
 
 
 ### Basic Rules/How to Play Strike-A-Match
