@@ -12,7 +12,7 @@ const GamePage1 = () => {
     <div>
         <h1 class="font-bungee text-8xl mx-auto text-center">Welcome to Strike-A-Match</h1>
         <h3 class="text-2xl text-gray-500 text-center">The matching game that started it all! {user}!</h3>
-        <img  class="mx-auto h-auto max-w-lg" src="/src/images/einstein.png" alt="picture of a einstein"/>
+        <img  class="mx-auto h-auto max-w-lg" src="/public/images/einstein.png" alt="picture of a einstein"/>
         <div class="text-lg text-gray-500 text-center">
         <h3>Strike-A-Match, is a word association game based on one of the original BoxerJam games that were released with AOL in early internet days!</h3>
         <h3>The goal of this game is simple. Simply match the 3 or 4 words that share a commonality.</h3>
