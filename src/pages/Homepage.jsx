@@ -28,6 +28,7 @@ const Homepage = () => {
             <input class="border border-gray-500 rounded-lg text-2xl " type="text" id="playerName" value={input} onChange={handleChange}></input>
             <br></br>
             <br></br>
+            <br></br>
             <Link to={"./GamePage1/" + input}>
             <button class="bg-white hover:bg-orange-500 text-gray-800  py-2 px-4 border border-gray-400 rounded shadow"onClick={handleClick}>Start Game</button>
             </Link>

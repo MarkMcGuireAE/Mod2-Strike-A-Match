@@ -166,7 +166,6 @@ const shuffle = (array) => {
     </div>
     <br></br>
     <br></br>
-    <br></br>
    <div className="flex justify-center items-center flex-col ">
     <div className='grid grid-cols-3'>
         

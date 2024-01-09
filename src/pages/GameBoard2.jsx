@@ -91,38 +91,54 @@ const GameBoard2 = () => {
 
     <h1 class="font-bungee text-8xl mx-auto text-center">Strike-A-Match: Round 2</h1>
     <div>
-        <h3> In round 2, players are given 9 words, 6 are random, and the other 3 share a commonality. 
+        <h3 className="text-xl text-gray-500 text-center"> In round 2, players are given 9 words, 6 are random, and the other 3 share a commonality. 
             In round 2, the word these other's share in common is given to you! Each matching word set is worth 500 points! If you guess incorrectly, you lose 500 points. 
             You move to the next round, by accumulating 3000 points!</h3>
-            <h3>If at anytime, you lose too many points, your game is over, and you will be asked to restart the game!</h3>
+            <br></br>
+            <h3 className="text-xl text-gray-500 text-center">If at anytime, you lose too many points, your game is over, and you will be asked to restart the game!</h3>
+            <br></br>
+            <h3 className="bg-orange-500 text-white text-xl text-center">Click to select/deselect answers, then click "Submit Answers" button to submit final answers!</h3>
     </div>
+    <br></br>
        <div>
-        <h1>Total Score: {totalscore}</h1>
-        <h2>Round Points: {score}</h2>
+        <h1 class="font-bungee text-2xl  text-left">Total Score: {totalscore}</h1>
+        <h2 class="font-bungee text-2xl  text-left">Round Points: {score}</h2>
     </div>
+    <br></br>
     <div>
-        <h3>Word in Common: {data.title}</h3>
+        <h3 class="font-bungee text-2xl mx-auto text-center">Word in Common: {data.title}</h3>
     </div>
+    <br></br>
+    <br></br>
+   <div className="flex justify-center items-center flex-col ">
+    <div className='grid grid-cols-3'>
    
-    <div className='box-container'>
         {wordslist.map((item, index) => (
-             <div key={index} className={item.clicked? "red box" : "box"} onClick={()=>handleClick(index)} >
-             <p>{item.word}</p>
+             <div className="flex justify-center items-center" key={index}  onClick={()=>handleClick(index)} >
+             <button className={` capitalize rounded overflow-hidden shadow-lg text-2xl text-uppercase text-center px-6 py-4  text-gray-800 inline-block m-8 ${item.clicked? " bg-orange-500" : ""}`}>{item.word}</button>
          </div>
         )) }
     
-    
     </div>
-
-    <button onClick={buttonClick}>Submit Answers</button>
-    <div>
-        {totalscore>=3000? <Link to={"/GamePage1/:user/GameBoard/GameBoard2/Gameboard3"}><button totalscore={totalscore}>Continue to next round!</button> </Link>: null}
+    <br></br>
+    <button class="bg-white hover:bg-orange-500 text-gray-800  py-2 px-4 border border-gray-400 rounded shadow mx-auto" onClick={buttonClick}>Submit Answers</button>
+    </div>
+    <br></br>
+    
+    
+    
+    <div className='flex justify-end'>
+        {totalscore>=3000? <Link to={"/GamePage1/:user/GameBoard/GameBoard2/GameBoard3"}><button class="bg-white hover:bg-orange-500 text-gray-800  py-2 px-4 border border-gray-400 rounded shadow" totalscore={totalscore}>Continue to next round!</button> </Link>: null}
         {totalscore<=-3000? <div><h1> You lose the game, please restart</h1>
-            <Link to={"/"}><button>Reset Game</button></Link></div> : null}
+            <Link to={"/"}><button class="bg-white hover:bg-orange-500 text-gray-800  py-2 px-4 border border-gray-400 rounded shadow">Reset Game</button></Link></div> : null}
         </div>
     
     </div>}
     </div>
+
+
+    
+   
   )
   
 }
