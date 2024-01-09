@@ -89,7 +89,7 @@ const GameBoard3 = () => {
   return (
     <div>
     {data && 
-    <div className='max-w-screen-2xl mx-auto'>>
+    <div className='max-w-screen-2xl mx-auto'>
       
 
     <h1 class="font-bungee text-8xl mx-auto text-center">Strike-A-Match: Round 3</h1>
@@ -99,6 +99,8 @@ const GameBoard3 = () => {
             You move to the next round, by accumulating 5000 points!</h3>
             <br></br>
             <h3 className="text-xl text-gray-500 text-center">If at anytime, you lose too many points, your game is over, and you will be asked to restart the game!</h3>
+            <br></br>
+            <h3 className="bg-orange-500 text-white text-xl text-center">Click to select/deselect answers, then click "Submit Answers" button to submit final answers!</h3>
     </div>
     <br></br>
        <div>
