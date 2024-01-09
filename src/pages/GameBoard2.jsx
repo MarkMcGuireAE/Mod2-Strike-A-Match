@@ -128,9 +128,9 @@ const GameBoard2 = () => {
     
     
     <div className='flex justify-end'>
-        {totalscore>=3000? <Link to={"/GamePage1/:user/GameBoard/GameBoard2/GameBoard3"}><button class="bg-white hover:bg-orange-500 text-gray-800  py-2 px-4 border border-gray-400 rounded shadow" totalscore={totalscore}>Continue to next round!</button> </Link>: null}
+        {totalscore>=3000? <Link to={"/GamePage1/:user/GameBoard/GameBoard2/GameBoard3"}><button class="bg-orange-500 text-gray-800  py-2 px-4 border border-gray-400 rounded shadow" totalscore={totalscore}>Continue to next round!</button> </Link>: null}
         {totalscore<=-3000? <div><h1> You lose the game, please restart</h1>
-            <Link to={"/"}><button class="bg-white hover:bg-orange-500 text-gray-800  py-2 px-4 border border-gray-400 rounded shadow">Reset Game</button></Link></div> : null}
+            <Link to={"/"}><button class="bg-orange-500 text-gray-800  py-2 px-4 border border-gray-400 rounded shadow">Reset Game</button></Link></div> : null}
         </div>
     
     </div>}

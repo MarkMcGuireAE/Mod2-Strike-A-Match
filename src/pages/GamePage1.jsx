@@ -26,7 +26,7 @@ const GamePage1 = () => {
         <h3>If at anytime, you lose too many points, your game is over, and you will be asked to restart the game!</h3>
         <br></br>
         <Link to={"./Gameboard"}>
-        <button class="text-xl bg-white hover:bg-orange-500 text-gray-800  py-2 px-4 border border-gray-400 rounded shadow">Start the Game</button>
+        <button class="text-xl bg-orange-500 text-gray-800  py-2 px-4 border border-gray-400 rounded shadow">Start the Game</button>
         </Link>
         </div>
     </div>
