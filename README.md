@@ -5,6 +5,14 @@ This game was developed as my second major coding project during week 11 of the 
 
 [Strike-A-Match] (https://strike-a-match.netlify.app)
 
+### Usage
+
+Rapid API
+Taboo Cards API
+Random Word API
+React.js
+Tailwind.css
+
 ### Screenshots
 
 Start of the game and basic setup:
