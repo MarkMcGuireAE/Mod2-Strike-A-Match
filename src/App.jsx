@@ -4,6 +4,7 @@ import GamePage1 from "./pages/GamePage1"
 import GameBoard from "./pages/GameBoard"
 import GameBoard2 from "./pages/GameBoard2"
 import GameBoard3 from "./pages/GameBoard3"
+import Winner from "./pages/Winner"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/GamePage1/:user/GameBoard" element={<GameBoard/>} />
       <Route path="/GamePage1/:user/GameBoard/GameBoard2" element={<GameBoard2/>} />
       <Route path="/GamePage1/:user/GameBoard/GameBoard2/GameBoard3" element={<GameBoard3/>} />
+      <Route path="/GamePage1/:user/GameBoard/GameBoard2/GameBoard3/Winner" element={<Winner/>} />
     </Routes>
    
   )
