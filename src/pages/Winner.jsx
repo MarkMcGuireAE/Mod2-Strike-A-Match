@@ -8,7 +8,7 @@ const Winner = () => {
       <h2 class="text-2xl text-gray-500 text-center">Congratulations, You won Strike-A-Match!</h2>
       <br></br>
       <h3 className="bg-orange-500 text-white text-xl text-center">Click to "Restart Game" to play again!</h3>
-      <img class="mx-auto h-auto max-w-xl" src="/public/images/einstein2.png" alt="picture of a einstein"/>
+      <img class="mx-auto h-auto max-w-xl" src="https://i.imgur.com/e0k0DYE.png" alt="picture of a einstein"/>
 
     <div className='flex justify-center'>
             <Link to={"/"}>

@@ -21,7 +21,7 @@ const Homepage = () => {
     <div>
       <h1 class="font-bungee text-8xl mx-auto text-center">Welcome to Strike-A-Match</h1>
       <h2 class="text-2xl text-gray-500 text-center">The matching game, that started it all. Input your name and click "Start Game" to begin!</h2>
-      <img class="mx-auto h-auto max-w-xl" src="./public/images/match.png" alt="picture of a match"/>
+      <img class="mx-auto h-auto max-w-xl" src="https://i.imgur.com/qrsOj1J.png" alt="picture of a match"/>
             <div class="flex flex-col justify-center items-center">
             <label class="text-gray-500 text-2xl" htmlFor="playerName">Player Name: </label>
             <br></br>

@@ -116,7 +116,7 @@ const GameBoard3 = () => {
     <div className="flex justify-center items-center flex-col ">
     <div className='grid grid-cols-3'>
         {wordslist.map((item, index) => (
-             <div className="flex justify-center items-center" key={index} className={item.clicked? "red box" : "box"} onClick={()=>handleClick(index)} >
+             <div className="flex justify-center items-center" key={index}  onClick={()=>handleClick(index)} >
              <button className={` capitalize rounded overflow-hidden shadow-lg text-2xl text-uppercase text-center px-6 py-4  text-gray-800 inline-block m-8 ${item.clicked? " bg-orange-500" : ""}`}>{item.word}</button>
          </div>
         )) }

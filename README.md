@@ -8,10 +8,10 @@ This game was developed as my second major coding project during week 11 of the 
 ### Screenshots
 
 Start of the game and basic setup:
-![alt text](public/images/Strike%201.png)
+![alt text](https://i.imgur.com/bOYs8Lb.png)
 
 During a Round of Play:
-![alt text](public/images/strike%202.png)
+![alt text](https://i.imgur.com/g1k5OgI.png)
 
 
 
